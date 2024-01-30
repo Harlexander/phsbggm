@@ -8,7 +8,7 @@ export const publicServices = [
   {
     title: "Baby changing service",
     href: "./baby-changing-service",
-    icon: "/icons/baby_changing.png",
+    icon: "/icons/baby-changing.png",
     content: "Baby Changing"
   },
   {
@@ -20,7 +20,7 @@ export const publicServices = [
   {
     title: "Air care service",
     href: "./air-care-service",
-    icon: "/icons/hand_dryer.png",
+    icon: "/icons/hand-dryer.png",
     content: "Hand Dryers"
   },
   {

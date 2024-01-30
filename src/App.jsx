@@ -26,7 +26,7 @@ useEffect(() => {
   
   const Loading = () => (
     <div className='bg-bg fixed z-30 h-screen w-screen flex justify-center items-center'>
-      <img src="/logo.png" className='h-28' alt="" />
+      {/* <img src="/logo.png" className='h-28' alt="" /> */}
     </div>
   )
 
