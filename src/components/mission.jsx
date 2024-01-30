@@ -15,7 +15,7 @@ const Mission = () => {
             </p>
         </div>
         <div className='p-10 flex h-full justify-center items-center'>
-            <img src="./animate.jpg" className='h-80' alt="bags"/>
+            <img src="./animate.jpg" className='h-80 object-cover' alt="bags"/>
         </div>
         </Fade>
     </div>
