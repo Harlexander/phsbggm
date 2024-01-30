@@ -25,8 +25,13 @@ const menu = [
     },
     {
       icon: DocumentTextIcon,
-      title: "Services",
-      href: "/services"
+      title: "Public Services",
+      href: "/services/public-services"
+    },
+    {
+      icon: DocumentTextIcon,
+      title: "Healthcare Services",
+      href: "/services/healthcare-services"
     },
     {
       icon: EnvelopeOpenIcon,
@@ -158,7 +163,7 @@ const Navbar = ({darkmode, setDarkmode, setLanguage, language}) => {
                                     {
                                         menu.map(({icon:Icon, title, href}) => (
                                             <a href={href}>
-                                              <div className='flex gap-4 font-600 px-4 py-4'>
+                                              <div className='flex gap-4 font-600 px-4 py-4 border-b border-gray-100'>
                                                   <Icon className='h-5'/>
                                                   <span className='text-sm font-[figtree]'>{title}</span>
                                               </div>                                            

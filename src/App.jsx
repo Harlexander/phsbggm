@@ -31,7 +31,7 @@ useEffect(() => {
   )
 
   return (
-    <div className="App font-[Poppins]">
+    <div className="App  font-[figtree]">
       {
         !isPageLoaded && <Loading/>
       }

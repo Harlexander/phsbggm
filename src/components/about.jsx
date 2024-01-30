@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom/dist'
 import Fade from 'react-reveal/Fade'
 const About = () => {
   return (
-    <div className='sm:p-20 px-5 py-16 gap-10 bg-white '>
+    <div className='sm:p-20 px-5 py-16 gap-10 bg-white'>
         <div className='sm:p-10 space-y-5'>
             <div>
                 <Fade bottom>
