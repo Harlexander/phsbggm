@@ -9,9 +9,9 @@ const Header = ({title, img, link}) => {
         <div className='p-16 sm:p-24 flex flex-col bg-gray-800 bg-opacity-50 gap-4 justify-center items-center text-white'>
             <p style={{ fontFamily : "Croissant One"}}  className='text-4xl text-center capitalize sm:text-6xl '>{title}</p>
             <div className='flex items-center gap-4 '>
-              <span className='text-yellow-500 font-semibold'>Home</span>
+              <span className='text-blue-500 font-semibold'>Home</span>
               <ChevronRightIcon className='h-5 w-5'/>
-              <span className='text-yellow-500 font-semibold'>{link}</span>
+              <span className='text-blue-500 font-semibold'>{link}</span>
             </div>
         </div>
     </div>

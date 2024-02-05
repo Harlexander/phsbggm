@@ -41,6 +41,7 @@ const HealthCare = () => {
                 <Subcard
                 href={sub.href}
                 title={sub.title}
+                icon={sub.icon}
                 key={index}/>
               ))
             }

@@ -7,7 +7,8 @@ import { Bars3Icon, BookOpenIcon, DocumentTextIcon, EnvelopeOpenIcon, HomeIcon, 
 const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'About', href: '/about', current: false },
-  { name: 'Services', href: '/#services', current: false },
+  { name: 'Public Services', href: '/services/public-services', current: false },
+  { name: 'Healthcare Services', href: '/services/healthcare-services', current: false },
   { name: 'Contact', href: '/contact', current: false },
 ]
 
@@ -66,7 +67,7 @@ const Navbar = ({darkmode, setDarkmode, setLanguage, language}) => {
         <nav
           className="relative font-[figtree]"
           data-te-navbar-ref>
-          <div className='bg-yellow-400 text-gray-800 text-xs py-5 px-5 sm:px-24 flex items-center divide-x'>
+          <div className='bg-blue-400 text-gray-800 text-xs py-5 px-5 sm:px-24 flex items-center divide-x'>
             <div className='flex gap-4 pr-4'>
               <PhoneIcon className='h-4'/>
               <span>+44 (0) 1215729718</span>
@@ -93,7 +94,7 @@ const Navbar = ({darkmode, setDarkmode, setLanguage, language}) => {
                                     <a
                                         key={item.name}
                                         href={item.href}
-                                        className={'hover:bg-yellow-500 rounded-md px-3 py-2 text font-medium'}
+                                        className={'hover:bg-blue-500 rounded-md px-3 py-2 text font-medium'}
                                         aria-current={item.current ? 'page' : undefined}
                                     >
                                         {item.name}
@@ -118,7 +119,7 @@ const Navbar = ({darkmode, setDarkmode, setLanguage, language}) => {
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
                 >
-                <div className="fixed inset-0 bg-yellow-100 bg-opacity-75 transition-opacity" />
+                <div className="fixed inset-0 bg-blue-100 bg-opacity-75 transition-opacity" />
                 </Transition.Child>
 
                 <div className="fixed inset-0 overflow-hidden">

@@ -9,7 +9,7 @@ const Section = () => {
             <p className='capitalize text-3xl sm:text-5xl w-4/5' style={{ fontFamily : "Croissant One"}}>
               Join us in creating a healthier and safer environment for all.
             </p>
-            <a href='mailto:info@bggm.co.uk' className='bg-yellow-400 px-8 py-3 text-lg shadow rounded'>Contact Us</a>
+            <a href='mailto:info@bggm.co.uk' className='bg-blue-400 px-8 py-3 text-lg shadow rounded'>Contact Us</a>
         </div>
     </div>
   )

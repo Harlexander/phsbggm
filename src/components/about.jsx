@@ -27,7 +27,7 @@ const About = () => {
             </div>
 
             <Link to={"/about"}>
-                <button className='bg-yellow-400 text-white px-8 py-3 text-lg shadow rounded'>Learn More</button>
+                <button className='bg-blue-400 text-white px-8 py-3 text-lg shadow rounded'>Learn More</button>
             </Link>
         </div>
     </div>

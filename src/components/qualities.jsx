@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade'
 import { Link } from 'react-router-dom'
 const Qualities = () => {
   return (
-    <div className='sm:p-28 px-5 py-16 bg-yellow-200 text-black'>
+    <div className='sm:p-28 px-5 py-16 bg-blue-200 text-black'>
         <div className='sm:w-3/4  mx-auto pb-16 space-y-4 text-center'>
             <Fade bottom>
             <p  style={{ fontFamily : "Croissant One"}} className='sm:text-5xl text-3xl text-center font-bold'>Our Services</p>

@@ -6,7 +6,7 @@ const Mission = () => {
     <div className='py-16 grid sm:grid-cols-2 gap-8' id='mission'>
         <Fade bottom>
         <div className='sm:p-20 p-5 space-y-8 flex flex-col justify-center font-[figtree]'>
-            <h4 className='text-yellow-500 font-bold text-5xl'>Our Mission</h4>
+            <h4 className='text-blue-500 font-bold text-5xl'>Our Mission</h4>
             <p className='text-gray-800'>
               At BGGM PHS, our mission is to elevate public health, washroom services, and healthcare solutions to new heights. We are dedicated to creating positive, impactful environments by delivering innovative, tailored services that exceed expectations and contribute to a healthier, more sustainable world.
             </p>

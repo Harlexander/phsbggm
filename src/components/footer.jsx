@@ -10,13 +10,13 @@ const Footer = () => {
         <div className='space-y-5'>
             <div className='flex gap-4 items-center'>
                 {/* <img src="logo2.png" className='h-28' alt="" /> */}
-                <p className='text-4xl font-bold text-yellow-400'>BGGM PHS</p>
+                <p className='text-4xl font-bold text-blue-400'>BGGM PHS</p>
             </div>
             <p>Welcome to BGGM PHS, a leading provider of public health services in the UK. Specializing in healthcare solutions that prioritize public well-being, we are dedicated to elevating health standards across the nation. Currently serving a diverse range of clients, from healthcare facilities and offices to public institutions and educational establishments, we take pride in meeting the unique public health needs of our UK customers.</p>            
         </div>
 
         <div className='space-y-5' id='contact'>
-            <p className='font-bold text-2xl inline border-b border-yellow-400 text-white'>Quick Links</p>
+            <p className='font-bold text-2xl inline border-b border-blue-400 text-white'>Quick Links</p>
 
             <div className='divide-y divide-gray-50/50'>
                 <div className='flex py-4 items-center gap-4 hover: text-white'>
@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='space-y-5' id='contact'>
-            <p className='font-bold text-2xl inline border-b border-yellow-400 text-white'>Contact Us</p>
+            <p className='font-bold text-2xl inline border-b border-blue-400 text-white'>Contact Us</p>
 
             <div className='divide-y divide-gray-50/50'>
                 <div className='flex py-4 items-center gap-4 hover: text-white'>
